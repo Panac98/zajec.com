@@ -3,7 +3,7 @@
     include_once 'database.php';
 ?>
 <h1>Pozdravljeni</h1>
-
+//lkmald
 <p>
 <?php
     $sql = "SELECT * FROM users WHERE id=".$_SESSION['user_id'];
